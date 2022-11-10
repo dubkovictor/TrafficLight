@@ -10,8 +10,8 @@ Install app
 
 How it works
 1) Open App
-2) Tap to button Start Tracing
-3) Enter the name of the car, so that the Start Driving button is available 
+2) Enter the name of the car, so that the Start Driving button is available 
+3) Tap to button Start Tracing
 4) Watching the traffic lights
 
 Project goals
