@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062F89E3B60D5F6D23BCEFEC /* Pods_TrafficLight_TrafficLightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8947AEA4BC1A9EF90A200F7F /* Pods_TrafficLight_TrafficLightUITests.framework */; };
+		392D2F72CCA1433550A5D772 /* Pods_TrafficLightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC4E9C816FB1D216F84544 /* Pods_TrafficLightTests.framework */; };
+		575E10A9291BB69300DAECD2 /* RouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10A8291BB69300DAECD2 /* RouteController.swift */; };
+		575E10AD291BB78200DAECD2 /* CarNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10AC291BB78200DAECD2 /* CarNameViewController.swift */; };
+		575E10AF291BB7BF00DAECD2 /* CarNameViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575E10AE291BB7BF00DAECD2 /* CarNameViewController.storyboard */; };
+		575E10B3291BBE9400DAECD2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10B2291BBE9400DAECD2 /* R.generated.swift */; };
+		575E10B5291BCA7B00DAECD2 /* CarNamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10B4291BCA7B00DAECD2 /* CarNamePresenter.swift */; };
+		575E10B7291BCAD200DAECD2 /* CarNameViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10B6291BCAD200DAECD2 /* CarNameViewDelegate.swift */; };
+		575E10BB291BCCE000DAECD2 /* TrafficLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10BA291BCCE000DAECD2 /* TrafficLightViewController.swift */; };
+		575E10BD291BCCEA00DAECD2 /* TrafficLightViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575E10BC291BCCEA00DAECD2 /* TrafficLightViewController.storyboard */; };
+		575E10C0291BCDEC00DAECD2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10BF291BCDEC00DAECD2 /* Car.swift */; };
+		575E10C2291BD50900DAECD2 /* TrafficLightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10C1291BD50900DAECD2 /* TrafficLightPresenter.swift */; };
+		575E10C4291BD51C00DAECD2 /* TrafficLightViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10C3291BD51C00DAECD2 /* TrafficLightViewDelegate.swift */; };
+		575E10C7291BEF0700DAECD2 /* UIView+TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E10C6291BEF0700DAECD2 /* UIView+TrafficLight.swift */; };
+		57D7F598291AC069001DB54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D7F597291AC069001DB54E /* AppDelegate.swift */; };
+		57D7F5A1291AC06A001DB54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D7F5A0291AC06A001DB54E /* Assets.xcassets */; };
+		57D7F5A4291AC06A001DB54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D7F5A2291AC06A001DB54E /* LaunchScreen.storyboard */; };
+		57D7F5AF291AC06A001DB54E /* TrafficLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D7F5AE291AC06A001DB54E /* TrafficLightTests.swift */; };
+		57D7F5B9291AC06A001DB54E /* TrafficLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D7F5B8291AC06A001DB54E /* TrafficLightUITests.swift */; };
+		57D7F5BB291AC06A001DB54E /* TrafficLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D7F5BA291AC06A001DB54E /* TrafficLightUITestsLaunchTests.swift */; };
+		BC7CB9926A26B7E0AFF87885 /* Pods_TrafficLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11105280078937B80FE212 /* Pods_TrafficLight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D7F5AB291AC06A001DB54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D7F58C291AC069001DB54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D7F593291AC069001DB54E;
+			remoteInfo = TrafficLight;
+		};
+		57D7F5B5291AC06A001DB54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D7F58C291AC069001DB54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D7F593291AC069001DB54E;
+			remoteInfo = TrafficLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F1705BCDB1F0AADC652B18 /* Pods-TrafficLight-TrafficLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLight-TrafficLightUITests.release.xcconfig"; path = "Target Support Files/Pods-TrafficLight-TrafficLightUITests/Pods-TrafficLight-TrafficLightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10F1F484BBD21C7E63CEE79B /* Pods-TrafficLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLightTests.release.xcconfig"; path = "Target Support Files/Pods-TrafficLightTests/Pods-TrafficLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		32C01FE5AAC5DDCFED6F283D /* Pods-TrafficLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLightTests.debug.xcconfig"; path = "Target Support Files/Pods-TrafficLightTests/Pods-TrafficLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		575E10A8291BB69300DAECD2 /* RouteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteController.swift; sourceTree = "<group>"; };
+		575E10AC291BB78200DAECD2 /* CarNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNameViewController.swift; sourceTree = "<group>"; };
+		575E10AE291BB7BF00DAECD2 /* CarNameViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarNameViewController.storyboard; sourceTree = "<group>"; };
+		575E10B2291BBE9400DAECD2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		575E10B4291BCA7B00DAECD2 /* CarNamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNamePresenter.swift; sourceTree = "<group>"; };
+		575E10B6291BCAD200DAECD2 /* CarNameViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNameViewDelegate.swift; sourceTree = "<group>"; };
+		575E10BA291BCCE000DAECD2 /* TrafficLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewController.swift; sourceTree = "<group>"; };
+		575E10BC291BCCEA00DAECD2 /* TrafficLightViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrafficLightViewController.storyboard; sourceTree = "<group>"; };
+		575E10BF291BCDEC00DAECD2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		575E10C1291BD50900DAECD2 /* TrafficLightPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightPresenter.swift; sourceTree = "<group>"; };
+		575E10C3291BD51C00DAECD2 /* TrafficLightViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewDelegate.swift; sourceTree = "<group>"; };
+		575E10C6291BEF0700DAECD2 /* UIView+TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TrafficLight.swift"; sourceTree = "<group>"; };
+		57D7F594291AC069001DB54E /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7F597291AC069001DB54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D7F5A0291AC06A001DB54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D7F5A3291AC06A001DB54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D7F5A5291AC06A001DB54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D7F5AA291AC06A001DB54E /* TrafficLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7F5AE291AC06A001DB54E /* TrafficLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightTests.swift; sourceTree = "<group>"; };
+		57D7F5B4291AC06A001DB54E /* TrafficLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7F5B8291AC06A001DB54E /* TrafficLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightUITests.swift; sourceTree = "<group>"; };
+		57D7F5BA291AC06A001DB54E /* TrafficLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8947AEA4BC1A9EF90A200F7F /* Pods_TrafficLight_TrafficLightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficLight_TrafficLightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89954D9CD1C6C32B43224B54 /* Pods-TrafficLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLight.release.xcconfig"; path = "Target Support Files/Pods-TrafficLight/Pods-TrafficLight.release.xcconfig"; sourceTree = "<group>"; };
+		A41C4AB1E8E8C63303CDC391 /* Pods-TrafficLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLight.debug.xcconfig"; path = "Target Support Files/Pods-TrafficLight/Pods-TrafficLight.debug.xcconfig"; sourceTree = "<group>"; };
+		A5FA3D3BAC347FDAA79DBAA6 /* Pods-TrafficLight-TrafficLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrafficLight-TrafficLightUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrafficLight-TrafficLightUITests/Pods-TrafficLight-TrafficLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE11105280078937B80FE212 /* Pods_TrafficLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CC4E9C816FB1D216F84544 /* Pods_TrafficLightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficLightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D7F591291AC069001DB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7CB9926A26B7E0AFF87885 /* Pods_TrafficLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5A7291AC06A001DB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392D2F72CCA1433550A5D772 /* Pods_TrafficLightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5B1291AC06A001DB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062F89E3B60D5F6D23BCEFEC /* Pods_TrafficLight_TrafficLightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7879E7171F8C696FF2287E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE11105280078937B80FE212 /* Pods_TrafficLight.framework */,
+				8947AEA4BC1A9EF90A200F7F /* Pods_TrafficLight_TrafficLightUITests.framework */,
+				E1CC4E9C816FB1D216F84544 /* Pods_TrafficLightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19A5D6783D44EE25DBB3E5BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A41C4AB1E8E8C63303CDC391 /* Pods-TrafficLight.debug.xcconfig */,
+				89954D9CD1C6C32B43224B54 /* Pods-TrafficLight.release.xcconfig */,
+				A5FA3D3BAC347FDAA79DBAA6 /* Pods-TrafficLight-TrafficLightUITests.debug.xcconfig */,
+				05F1705BCDB1F0AADC652B18 /* Pods-TrafficLight-TrafficLightUITests.release.xcconfig */,
+				32C01FE5AAC5DDCFED6F283D /* Pods-TrafficLightTests.debug.xcconfig */,
+				10F1F484BBD21C7E63CEE79B /* Pods-TrafficLightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		575E10B8291BCAFA00DAECD2 /* Car Name View  */ = {
+			isa = PBXGroup;
+			children = (
+				575E10AC291BB78200DAECD2 /* CarNameViewController.swift */,
+				575E10AE291BB7BF00DAECD2 /* CarNameViewController.storyboard */,
+				575E10B4291BCA7B00DAECD2 /* CarNamePresenter.swift */,
+				575E10B6291BCAD200DAECD2 /* CarNameViewDelegate.swift */,
+			);
+			path = "Car Name View ";
+			sourceTree = "<group>";
+		};
+		575E10B9291BCCBD00DAECD2 /* Traffic Light View */ = {
+			isa = PBXGroup;
+			children = (
+				575E10BA291BCCE000DAECD2 /* TrafficLightViewController.swift */,
+				575E10BC291BCCEA00DAECD2 /* TrafficLightViewController.storyboard */,
+				575E10C1291BD50900DAECD2 /* TrafficLightPresenter.swift */,
+				575E10C3291BD51C00DAECD2 /* TrafficLightViewDelegate.swift */,
+			);
+			path = "Traffic Light View";
+			sourceTree = "<group>";
+		};
+		575E10BE291BCDDE00DAECD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				575E10BF291BCDEC00DAECD2 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		575E10C5291BEEDA00DAECD2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				575E10C6291BEF0700DAECD2 /* UIView+TrafficLight.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		57D7F58B291AC069001DB54E = {
+			isa = PBXGroup;
+			children = (
+				57D7F596291AC069001DB54E /* TrafficLight */,
+				57D7F5AD291AC06A001DB54E /* TrafficLightTests */,
+				57D7F5B7291AC06A001DB54E /* TrafficLightUITests */,
+				57D7F595291AC069001DB54E /* Products */,
+				19A5D6783D44EE25DBB3E5BA /* Pods */,
+				0B7879E7171F8C696FF2287E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57D7F595291AC069001DB54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D7F594291AC069001DB54E /* TrafficLight.app */,
+				57D7F5AA291AC06A001DB54E /* TrafficLightTests.xctest */,
+				57D7F5B4291AC06A001DB54E /* TrafficLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D7F596291AC069001DB54E /* TrafficLight */ = {
+			isa = PBXGroup;
+			children = (
+				575E10C5291BEEDA00DAECD2 /* Common */,
+				575E10B8291BCAFA00DAECD2 /* Car Name View  */,
+				575E10B9291BCCBD00DAECD2 /* Traffic Light View */,
+				575E10BE291BCDDE00DAECD2 /* Model */,
+				57D7F597291AC069001DB54E /* AppDelegate.swift */,
+				575E10A8291BB69300DAECD2 /* RouteController.swift */,
+				57D7F5A0291AC06A001DB54E /* Assets.xcassets */,
+				575E10B2291BBE9400DAECD2 /* R.generated.swift */,
+				57D7F5A2291AC06A001DB54E /* LaunchScreen.storyboard */,
+				57D7F5A5291AC06A001DB54E /* Info.plist */,
+			);
+			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		57D7F5AD291AC06A001DB54E /* TrafficLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D7F5AE291AC06A001DB54E /* TrafficLightTests.swift */,
+			);
+			path = TrafficLightTests;
+			sourceTree = "<group>";
+		};
+		57D7F5B7291AC06A001DB54E /* TrafficLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57D7F5B8291AC06A001DB54E /* TrafficLightUITests.swift */,
+				57D7F5BA291AC06A001DB54E /* TrafficLightUITestsLaunchTests.swift */,
+			);
+			path = TrafficLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D7F593291AC069001DB54E /* TrafficLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D7F5BE291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLight" */;
+			buildPhases = (
+				A4B85DE61518AF137B79604A /* [CP] Check Pods Manifest.lock */,
+				575E10A7291BB54500DAECD2 /* R.Swift */,
+				57D7F590291AC069001DB54E /* Sources */,
+				57D7F591291AC069001DB54E /* Frameworks */,
+				57D7F592291AC069001DB54E /* Resources */,
+				9021EC33C76F27FB40AF3D0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficLight;
+			productName = TrafficLight;
+			productReference = 57D7F594291AC069001DB54E /* TrafficLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D7F5A9291AC06A001DB54E /* TrafficLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D7F5C1291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLightTests" */;
+			buildPhases = (
+				0E90C73EA689C3B05BBEEA28 /* [CP] Check Pods Manifest.lock */,
+				57D7F5A6291AC06A001DB54E /* Sources */,
+				57D7F5A7291AC06A001DB54E /* Frameworks */,
+				57D7F5A8291AC06A001DB54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D7F5AC291AC06A001DB54E /* PBXTargetDependency */,
+			);
+			name = TrafficLightTests;
+			productName = TrafficLightTests;
+			productReference = 57D7F5AA291AC06A001DB54E /* TrafficLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57D7F5B3291AC06A001DB54E /* TrafficLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D7F5C4291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLightUITests" */;
+			buildPhases = (
+				D4B674AF4D138A829A89E865 /* [CP] Check Pods Manifest.lock */,
+				57D7F5B0291AC06A001DB54E /* Sources */,
+				57D7F5B1291AC06A001DB54E /* Frameworks */,
+				57D7F5B2291AC06A001DB54E /* Resources */,
+				BE047C8FDBE2AAC941C42631 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D7F5B6291AC06A001DB54E /* PBXTargetDependency */,
+			);
+			name = TrafficLightUITests;
+			productName = TrafficLightUITests;
+			productReference = 57D7F5B4291AC06A001DB54E /* TrafficLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D7F58C291AC069001DB54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					57D7F593291AC069001DB54E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					57D7F5A9291AC06A001DB54E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 57D7F593291AC069001DB54E;
+					};
+					57D7F5B3291AC06A001DB54E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 57D7F593291AC069001DB54E;
+					};
+				};
+			};
+			buildConfigurationList = 57D7F58F291AC069001DB54E /* Build configuration list for PBXProject "TrafficLight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D7F58B291AC069001DB54E;
+			productRefGroup = 57D7F595291AC069001DB54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D7F593291AC069001DB54E /* TrafficLight */,
+				57D7F5A9291AC06A001DB54E /* TrafficLightTests */,
+				57D7F5B3291AC06A001DB54E /* TrafficLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D7F592291AC069001DB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D7F5A4291AC06A001DB54E /* LaunchScreen.storyboard in Resources */,
+				57D7F5A1291AC06A001DB54E /* Assets.xcassets in Resources */,
+				575E10BD291BCCEA00DAECD2 /* TrafficLightViewController.storyboard in Resources */,
+				575E10AF291BB7BF00DAECD2 /* CarNameViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5A8291AC06A001DB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5B2291AC06A001DB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E90C73EA689C3B05BBEEA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrafficLightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575E10A7291BB54500DAECD2 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		9021EC33C76F27FB40AF3D0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrafficLight/Pods-TrafficLight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrafficLight/Pods-TrafficLight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrafficLight/Pods-TrafficLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B85DE61518AF137B79604A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrafficLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE047C8FDBE2AAC941C42631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrafficLight-TrafficLightUITests/Pods-TrafficLight-TrafficLightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrafficLight-TrafficLightUITests/Pods-TrafficLight-TrafficLightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrafficLight-TrafficLightUITests/Pods-TrafficLight-TrafficLightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B674AF4D138A829A89E865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrafficLight-TrafficLightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D7F590291AC069001DB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575E10AD291BB78200DAECD2 /* CarNameViewController.swift in Sources */,
+				57D7F598291AC069001DB54E /* AppDelegate.swift in Sources */,
+				575E10C0291BCDEC00DAECD2 /* Car.swift in Sources */,
+				575E10B3291BBE9400DAECD2 /* R.generated.swift in Sources */,
+				575E10B7291BCAD200DAECD2 /* CarNameViewDelegate.swift in Sources */,
+				575E10BB291BCCE000DAECD2 /* TrafficLightViewController.swift in Sources */,
+				575E10C4291BD51C00DAECD2 /* TrafficLightViewDelegate.swift in Sources */,
+				575E10C2291BD50900DAECD2 /* TrafficLightPresenter.swift in Sources */,
+				575E10B5291BCA7B00DAECD2 /* CarNamePresenter.swift in Sources */,
+				575E10A9291BB69300DAECD2 /* RouteController.swift in Sources */,
+				575E10C7291BEF0700DAECD2 /* UIView+TrafficLight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5A6291AC06A001DB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D7F5AF291AC06A001DB54E /* TrafficLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D7F5B0291AC06A001DB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D7F5B9291AC06A001DB54E /* TrafficLightUITests.swift in Sources */,
+				57D7F5BB291AC06A001DB54E /* TrafficLightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D7F5AC291AC06A001DB54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D7F593291AC069001DB54E /* TrafficLight */;
+			targetProxy = 57D7F5AB291AC06A001DB54E /* PBXContainerItemProxy */;
+		};
+		57D7F5B6291AC06A001DB54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D7F593291AC069001DB54E /* TrafficLight */;
+			targetProxy = 57D7F5B5291AC06A001DB54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D7F5A2291AC06A001DB54E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D7F5A3291AC06A001DB54E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D7F5BC291AC06A001DB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57D7F5BD291AC06A001DB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D7F5BF291AC06A001DB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41C4AB1E8E8C63303CDC391 /* Pods-TrafficLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrafficLight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = CarNameViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57D7F5C0291AC06A001DB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89954D9CD1C6C32B43224B54 /* Pods-TrafficLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrafficLight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = CarNameViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57D7F5C2291AC06A001DB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C01FE5AAC5DDCFED6F283D /* Pods-TrafficLightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLight";
+			};
+			name = Debug;
+		};
+		57D7F5C3291AC06A001DB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F1F484BBD21C7E63CEE79B /* Pods-TrafficLightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLight";
+			};
+			name = Release;
+		};
+		57D7F5C5291AC06A001DB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FA3D3BAC347FDAA79DBAA6 /* Pods-TrafficLight-TrafficLightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficLight;
+			};
+			name = Debug;
+		};
+		57D7F5C6291AC06A001DB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F1705BCDB1F0AADC652B18 /* Pods-TrafficLight-TrafficLightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6CQH4W96NM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkTracking.app.TrafficLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D7F58F291AC069001DB54E /* Build configuration list for PBXProject "TrafficLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D7F5BC291AC06A001DB54E /* Debug */,
+				57D7F5BD291AC06A001DB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D7F5BE291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D7F5BF291AC06A001DB54E /* Debug */,
+				57D7F5C0291AC06A001DB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D7F5C1291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D7F5C2291AC06A001DB54E /* Debug */,
+				57D7F5C3291AC06A001DB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D7F5C4291AC06A001DB54E /* Build configuration list for PBXNativeTarget "TrafficLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D7F5C5291AC06A001DB54E /* Debug */,
+				57D7F5C6291AC06A001DB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D7F58C291AC069001DB54E /* Project object */;
+}
