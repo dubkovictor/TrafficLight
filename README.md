@@ -3,10 +3,10 @@
 Install app
 1) Git clone or download repo
 2) Go to application folder
-3) Do pod install
-4) Command + B (for geniture R swift class)
+3) Do pod install 
 4) Open TrafficLight.xcworkspace
-5) Enjoi
+5) Command + B (for geniture R swift class)
+6) Enjoi
 
 How it works
 1) Open App
